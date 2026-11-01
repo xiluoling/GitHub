@@ -1,21 +1,25 @@
 # GitHub
 
-个人 GitHub 主仓库，按照 GitHub 官方推荐实践初始化：**README 说明、安全策略、分支工作流、Git LFS 大文件存储**。
+个人 GitHub 主仓库，按照 GitHub 官方推荐实践初始化：**README 说明、安全策略、分支工作流、Git LFS 大文件存储、贡献指南与 MIT 许可证**。
 
 - 默认分支：`main`
 - 集成分支：`develop`
 - 大文件：Git LFS（规则见 [`.gitattributes`](.gitattributes)）
 - 安全策略：[`SECURITY.md`](SECURITY.md)
+- 贡献指南：[`CONTRIBUTING.md`](CONTRIBUTING.md)
+- 许可证：[MIT](LICENSE)
 
 ## 目录结构
 
 ```
 GitHub/
-├─ .github/          # 协作与安全配置（拉取请求模板等）
-├─ .gitattributes    # Git LFS 跟踪规则 + 换行符规范化
-├─ .gitignore        # 忽略规则（系统 / 编辑器 / 构建产物）
-├─ README.md         # 本文件
-└─ SECURITY.md       # 安全策略（漏洞上报渠道）
+├─ .github/            # 协作配置（拉取请求模板等）
+├─ .gitattributes      # Git LFS 跟踪规则 + 换行符规范化
+├─ .gitignore          # 忽略规则（系统 / 编辑器 / 构建产物）
+├─ CONTRIBUTING.md     # 贡献指南（分支工作流、提交规范、评审要求）
+├─ LICENSE             # MIT 许可证
+├─ README.md           # 本文件
+└─ SECURITY.md         # 安全策略（漏洞上报渠道）
 ```
 
 ## 快速开始
@@ -81,7 +85,7 @@ git lfs pull                    # 拉取 LFS 实体
 
 - 漏洞请通过 GitHub 的 **私密漏洞报告**（Security → Report a vulnerability）提交，不要开公开 Issue。
 - 详细范围、响应时限与安全港条款见 [`SECURITY.md`](SECURITY.md)。
-- 建议在仓库 **Settings → Code security** 中开启依赖图、Dependabot 告警、Secret Scanning 与推送保护。
+- 仓库已启用 **私密漏洞报告**、**Dependabot 告警**、**Secret Scanning 与推送保护**；新建仓库请沿用同样的设置。
 
 ## 提交规范
 
@@ -96,4 +100,6 @@ chore: 构建/工具链调整
 
 ## 许可证
 
-本仓库尚未声明开源许可证。如需公开分发，请在 **Add file → Create new file** 中新增 `LICENSE`（例如 MIT、Apache-2.0）。
+本项目采用 [MIT 许可证](LICENSE)，Copyright © 2026 xiluoling。可自由使用、修改、分发（含商业用途），只需保留版权与许可声明。
+
+如需改为 Apache-2.0（额外包含专利授权与商标条款），替换 `LICENSE` 全文，并同步更新本节与顶部列表中的链接即可。
