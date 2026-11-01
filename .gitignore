@@ -1,0 +1,35 @@
+# ---- 操作系统 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-workspace
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+*.bak
+
+# ---- 构建产物 ----
+build/
+dist/
+out/
+target/
+
+# ---- 依赖目录 ----
+node_modules/
+.venv/
+venv/
+
+# ---- 本地环境与密钥 ----
+.env
+.env.*
+*.pem
+*.key
