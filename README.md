@@ -22,7 +22,7 @@ GitHub/
 
 ```bash
 # 1. 克隆
-git clone https://github.com/<你的用户名>/GitHub.git
+git clone https://github.com/xiluoling/GitHub.git
 cd GitHub
 
 # 2. 确认 Git LFS 已就绪（首次使用机器时需要）
